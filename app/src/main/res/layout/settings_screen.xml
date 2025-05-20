@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_blue">
+
+    <TextView
+        android:id="@+id/bg_settings"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/rectangle_bg"
+        android:backgroundTint="@color/dark_blue"
+        />
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/game_back_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/settings_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:fontFamily="@font/amaranthregular"
+        android:textSize="48dp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="@id/bg_settings"
+        app:layout_constraintLeft_toLeftOf="@id/bg_settings"
+        app:layout_constraintRight_toRightOf="@id/bg_settings"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/music_bar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="MUSIC"
+        android:fontFamily="@font/amaranthregular"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:background="@drawable/rectangle_bg"
+        android:backgroundTint="@color/blue"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/settings_text"
+        app:layout_constraintLeft_toLeftOf="@id/bg_settings"
+        app:layout_constraintRight_toRightOf="@id/bg_settings"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/switch_img"
+        app:layout_constraintTop_toTopOf="@+id/music_bar"
+        app:layout_constraintBottom_toBottomOf="@id/music_bar"
+        app:layout_constraintRight_toRightOf="@id/music_bar"
+        android:layout_marginEnd="10dp"
+        />
+
+    <TextView
+        android:id="@+id/sfx_bar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="SFX"
+        android:fontFamily="@font/amaranthregular"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:background="@drawable/rectangle_bg"
+        android:backgroundTint="@color/blue"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        app:layout_constraintTop_toBottomOf="@id/music_bar"
+        app:layout_constraintLeft_toLeftOf="@id/bg_settings"
+        app:layout_constraintRight_toRightOf="@id/bg_settings"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/switch_img"
+        app:layout_constraintTop_toTopOf="@+id/sfx_bar"
+        app:layout_constraintBottom_toBottomOf="@id/sfx_bar"
+        app:layout_constraintRight_toRightOf="@id/sfx_bar"
+        android:layout_marginEnd="10dp"
+        />
+    
+    <TextView
+        android:id="@+id/settings_bg_bottom"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@drawable/rectangle_bg"
+        android:backgroundTint="@color/light_blue"
+        app:layout_constraintBottom_toBottomOf="@id/bg_settings"
+        app:layout_constraintRight_toRightOf="@id/bg_settings"
+        app:layout_constraintLeft_toLeftOf="@id/bg_settings"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        />
+
+    <TextView
+        android:id="@+id/privacy_policy_bar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="Privacy Policy"
+        android:fontFamily="@font/amaranthregular"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:background="@drawable/rectangle_bg"
+        android:backgroundTint="@color/blue"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        app:layout_constraintLeft_toLeftOf="@+id/settings_bg_bottom"
+        app:layout_constraintRight_toRightOf="@id/settings_bg_bottom"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_bg_bottom"
+        app:layout_constraintTop_toTopOf="@id/settings_bg_bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/privacy_policy_img"
+        app:layout_constraintBottom_toBottomOf="@id/privacy_policy_bar"
+        app:layout_constraintTop_toTopOf="@id/privacy_policy_bar"
+        app:layout_constraintRight_toRightOf="@id/privacy_policy_bar"
+        android:layout_marginEnd="15dp"
+        />
+
+    <TextView
+        android:id="@+id/share_bar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="Share"
+        android:fontFamily="@font/amaranthregular"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:background="@drawable/rectangle_bg"
+        android:backgroundTint="@color/blue"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        app:layout_constraintLeft_toLeftOf="@+id/settings_bg_bottom"
+        app:layout_constraintRight_toRightOf="@id/settings_bg_bottom"
+        app:layout_constraintBottom_toTopOf="@id/privacy_policy_bar"
+        app:layout_constraintTop_toTopOf="@id/settings_bg_bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/share_img"
+        app:layout_constraintBottom_toBottomOf="@id/share_bar"
+        app:layout_constraintTop_toTopOf="@id/share_bar"
+        app:layout_constraintRight_toRightOf="@id/share_bar"
+        android:layout_marginEnd="15dp"
+        />
+
+    <TextView
+        android:id="@+id/dev_bar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="About the developers"
+        android:fontFamily="@font/amaranthregular"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:background="@drawable/rectangle_bg"
+        android:backgroundTint="@color/blue"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        app:layout_constraintLeft_toLeftOf="@+id/settings_bg_bottom"
+        app:layout_constraintRight_toRightOf="@id/settings_bg_bottom"
+        app:layout_constraintTop_toBottomOf="@id/privacy_policy_bar"
+        app:layout_constraintBottom_toBottomOf="@id/settings_bg_bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/dev_img"
+        app:layout_constraintBottom_toBottomOf="@id/dev_bar"
+        app:layout_constraintTop_toTopOf="@id/dev_bar"
+        app:layout_constraintRight_toRightOf="@id/dev_bar"
+        android:layout_marginEnd="15dp"
+        />
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

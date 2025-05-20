@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/game_end_bg">
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:text="Player X wins!"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/amaranthregular"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:background="@drawable/button_play_again"
+        android:text="Play Again"
+        android:textSize="18dp"
+        android:fontFamily="@font/amaranthregular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnMainMenu"
+        android:background="@drawable/button_main_menu"
+        android:text="Main Menu"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/amaranthregular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

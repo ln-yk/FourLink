@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_blue">#99ccff</color>
+    <color name="blue">#4da6ff</color>
+    <color name="dark_blue">#0073e6</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#dcdbd8</color>
+    <color name="grayer">#999999</color>
+    <color name="dark_gray">#737373</color>
+    <color name="light_yellow">#ffff99</color>
+    <color name="yellow">#ffff33</color>
+    <color name="red">#ff1a1a</color>
+    <color name="light_red">#ff8080</color>
+
+    <!--COMMENT-->
+    <color name="green">#00ff00</color>
+    <color name="light_green">#99ff99</color>
+    <color name="dark_green">#006600</color>
+    <color name="orange">#ff9900</color>
+    <color name="light_orange">#ffcc99</color>
+    <color name="dark_orange">#cc6600</color>
+    <color name="pink">#ff66b2</color>
+    <color name="light_pink">#ffb6c1</color>
+    <color name="dark_pink">#cc0066</color>
+    <color name="brown">#8b4513</color>
+    <color name="light_brown">#cd853f</color>
+    <color name="dark_brown">#5c4033</color>
+    <color name="cyan">#00ffff</color>
+    <color name="light_cyan">#e0ffff</color>
+    <color name="dark_cyan">#008b8b</color>
+    <color name="magenta">#ff00ff</color>
+    <color name="light_magenta">#ff77ff</color>
+    <color name="dark_magenta">#8b008b</color>
+
+</resources>
